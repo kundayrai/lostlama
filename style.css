@@ -1,0 +1,396 @@
+body{
+	color: #000;
+	background-color: #fff;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container-fluid{
+	margin-left: -15px;
+	padding-right: 0;
+}
+
+.box {
+	font-size: 50px;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("images/homePage.jpg");
+
+    /* Set a specific height */
+    height: 650px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 { 
+    /* The image used */
+    background-image: url("images/homePage2.jpg");
+
+    /* Set a specific height */
+    height: 650px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 { 
+    /* The image used */
+    background-image: url("images/contactPage1.jpg");
+
+    /* Set a specific height */
+    height: 650px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homePageBox{
+	background-color: white;
+	height: 500px;
+}
+
+.nav {
+
+	font-size: 20px;
+}
+
+.topBox{
+	font-size: 50px;
+	color: #FFF;
+	/*height: 400px;*/
+	padding: 15%;
+	font-family: 'Gloria Hallelujah', cursive;
+	opacity: 1;
+}
+
+.overlay{
+	background-color: #FF5A5F;
+	opacity: 0.5;
+	height: 650px;
+}
+
+.contactHead{
+	font-size: 100px;
+	color: #FFF;
+	height: 400px;
+	padding: 15%;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.textContainer{
+	font-size: 50px;
+	color: black;
+	height: 400px;
+	padding: 5% ;
+}
+
+.description{
+	color: #9E9E9E;
+	font-size: 20px;
+	padding: 0 50px 0 50px;
+}
+
+.description-htw{
+	color: #FFF;
+	font-size: 20px;
+	padding: 0 50px 0 50px;
+}
+
+a{
+	color: #000;
+}
+
+
+
+/*--------------------------------------------------------------
+# Footer 
+--------------------------------------------------------------*/
+.footer{
+	background-color: #2a2a2a;
+	color: #fff;
+}
+
+
+
+.footer-widget-container{
+	width: 33.3%;
+	float: left;
+	padding: 1%;
+	text-align: center;
+
+}
+.footer-widget-heading{
+	padding: 1%;
+	    font-size: xx-large;
+	        margin-bottom: 5%;
+
+}
+.footer-widget-sub-heading{
+	padding: 1%;
+	    font-size: large;
+	        margin-bottom: 2%;
+
+}
+.footer-contact-logo{
+
+}
+.footer-contact-info{
+	    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 3%;
+}
+.footer-contact-info-item{
+	    margin: 2% 0 2% 0;
+    padding: 2%;
+
+}
+.footer-social-item{
+	    padding: 5%;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 5%;
+	
+
+}
+.footer-social-item-icon{
+	
+	    padding: 1%;
+    float: left;
+    width: 12%;
+    font-size: xx-large;
+
+}
+.footer-social-item-text-area{
+	    padding: 5%;
+    float: left;
+    width: 80%;
+    text-align: left;
+
+}
+.footer-get-touch-form{
+	width: 70%;
+	margin: 0 auto;
+}
+.footer-get-touch-form-item{
+	    width: 100%;
+}
+.footer-tagline{
+	    clear: both;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	 font-family: 'Pacifico', cursive;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-size: large;
+
+}
+.footer-copyright-area{
+	    background-color: rgba(0, 0, 0, 0.42);
+
+}
+.footer-copyright{
+width: 80%;
+	margin: 0 auto;
+	text-align: center;
+		padding: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+
+}
+
+
+/*--------------------------------------------------------------
+# Video Area 
+--------------------------------------------------------------*/
+
+.video-area{
+    padding: 5%;
+    text-align: center;
+}
+  .home-page-how-it-works{
+    padding: 1%;
+
+    
+
+
+  }
+  .home-page-how-it-works-step{
+    float: left;
+    width: 33.33%;
+
+  }
+  .home-page-how-it-works-step-image-area{
+    text-align: center;
+
+  }
+  .home-page-how-it-works-step-image{
+    width: 150px;
+    height: 150px;
+
+  }
+  .home-page-how-it-works-step-heading{
+        font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 5%;
+
+  }
+  .home-page-how-it-works-step-content{
+        text-align: justify;
+    padding: 3%;
+    width: 80%;
+    margin: 0 auto;
+
+  }
+.home-page-how-it-works-button-area{
+    padding: 5%;
+    clear: both;
+
+
+
+}
+.home-page-how-it-works-button-space{
+    
+    width: 15%;
+    margin : 0 auto;
+    text-align: center;
+  
+
+
+
+}
+  .home-page-how-it-works-button{
+
+    
+    background-color:darkgoldenrod;
+   padding: 10%;
+
+  }
+  .home-page-how-it-works-button-text{
+        font-size: large;
+    font-weight: bolder;
+    
+
+  }
+
+
+
+
+
+/*--------------------------------------------------------------
+# Customer Photos Area 
+--------------------------------------------------------------*/
+.customer-photo-area{
+	padding: 1%;
+    text-align: center;
+
+}
+.customer-individual-photo{
+	 display: inline-block;
+    margin: 1%;
+
+}
+.customer-photo-image{
+	width: 230px;
+    	height:230px ;
+
+}
+
+.places-visited-image-area{
+    padding: 3%;
+    text-align: center;
+
+}
+.places-visited-image{
+    width: 500px;
+    height: 500px ;
+}
+
+/*--------------------------------------------------------------
+# SponsorShip Area 
+--------------------------------------------------------------*/
+  .home-page-heading-area{
+  	    padding: 1%;
+    text-align: center;
+    font-size: xx-large;
+        margin-top: 3%;
+        color: #000;
+
+  }
+    .sponsor-list-area{
+    	padding: 1%;
+    text-align: center;
+
+    }
+    .sponsor-individual-card{
+    	    display: inline-block;
+    margin: 1%;
+
+    }
+    .sponsor-logo-image{
+    	
+    	width: 300px;
+    	height:125px ;
+
+    }
+
+    /*--------------------------------------------------------------
+# FAQs Page
+--------------------------------------------------------------*/
+
+.faq-questions-area{
+    padding: 5%;
+   color: black;
+}
+
+.faq-questions-div{
+    width: 50%;
+    padding: 2%;
+    float: left;
+
+}
+
+.faq-question-individual{
+    padding: 2%;
+
+}
+.faq-question-question{
+    text-align: justify;
+        font-weight: bold;
+    font-size: x-large;
+
+
+}
+.faq-question-answer{
+    margin-top: 2%;
+    text-align: justify;
+
+}
+.faq-contact-info-area{
+    width: 80%;
+    margin:0 auto;
+    clear: both;
+
+}
+.faq-contact-info{
+    padding: 5%;
+    text-align: center;
+    font-size: x-large;
+    color: black;
+}
