@@ -2,6 +2,7 @@ body{
 	color: #000;
 	background-color: #fff;
 	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: medium;
 }
 
 .container-fluid{
@@ -55,6 +56,20 @@ body{
     background-size: cover;
 }
 
+.parallax4 { 
+    /* The image used */
+    background-image: url("images/homePage2.jpg");
+
+    /* Set a specific height */
+    height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .homePageBox{
 	background-color: white;
 	height: 500px;
@@ -68,24 +83,28 @@ body{
 .topBox{
 	font-size: 50px;
 	color: #FFF;
-	/*height: 400px;*/
 	padding: 15%;
+	height: 650px;
 	font-family: 'Gloria Hallelujah', cursive;
-	opacity: 1;
+	background-color: rgba(100,35,37,0.4);
 }
 
-.overlay{
-	background-color: #FF5A5F;
-	opacity: 0.5;
-	height: 650px;
+.topBox1{
+	font-size: 50px;
+	color: #FFF;
+	height: 300px;
+	padding: 2%;
+	font-family: 'Gloria Hallelujah', cursive;
+	background-color: rgba(100,35,37,0.4);
 }
 
 .contactHead{
 	font-size: 100px;
 	color: #FFF;
-	height: 400px;
+	height: 650px;
 	padding: 15%;
 	font-family: 'Gloria Hallelujah', cursive;
+	background-color: rgba(100,35,37,0.4);
 }
 
 .textContainer{
@@ -101,6 +120,13 @@ body{
 	padding: 0 50px 0 50px;
 }
 
+.descriptionhead{
+	color: #fff;
+	font-size: 30px;
+	padding: 0 50px 0 50px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
 .description-htw{
 	color: #FFF;
 	font-size: 20px;
@@ -111,6 +137,37 @@ a{
 	color: #000;
 }
 
+/*--------------------------------------------------------------
+# NavBar 
+--------------------------------------------------------------*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #ff5a5f;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: white;
+    color: #ff5a5f;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
 
 
 /*--------------------------------------------------------------
@@ -229,13 +286,10 @@ a{
     
     display: inline;
     font-size: large;
-    
-	
-
 }
 
 .footer-social-item-text-area{
-	    padding: 5%;
+	padding: 5%;
     float: left;
     width: 80%;
     text-align: left;
@@ -249,7 +303,7 @@ a{
 	    width: 100%;
 }
 .footer-tagline{
-	    clear: both;
+	clear: both;
 	width: 80%;
 	margin: 0 auto;
 	text-align: center;
@@ -323,35 +377,34 @@ width: 80%;
 .home-page-how-it-works-button-area{
     padding: 5%;
     clear: both;
-
-
-
 }
+
 .home-page-how-it-works-button-space{
     
     width: 15%;
     margin : 0 auto;
     text-align: center;
-  
-
-
-
 }
   .home-page-how-it-works-button{
 
-    
-    background-color:darkgoldenrod;
+    background-color:#FF5A5F;
    padding: 10%;
 
   }
   .home-page-how-it-works-button-text{
         font-size: large;
     font-weight: bolder;
-    
 
   }
 
+  .home-page-how-it-works-button-text a {
+  	color: #fff;
+  }
 
+.home-page-how-it-works-button-text a:hover {
+	background-color: #fff;
+	color: #FF5A5F;
+}
 
 
 
@@ -388,9 +441,13 @@ width: 80%;
 # SponsorShip Area 
 --------------------------------------------------------------*/
   .home-page-heading-area{
-  	    padding: 1%;
+  	padding: 1%;
     text-align: center;
     font-size: xx-large;
+
+    margin-top: 3%;
+    color: #FF5A5F;
+    font-family: 'Gloria Hallelujah', cursive;
         margin-top: 3%;
         color: #000;
             font-weight: bolder;
