@@ -116,6 +116,29 @@ a{
 /*--------------------------------------------------------------
 # Footer 
 --------------------------------------------------------------*/
+
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+    color: #FF5A5F !important;
+    text-decoration: none;
+}
+.footer a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+.footer hr{
+
+    border: 0;
+    border-top: 1px solid #eee;
+    width: 42%;
+}
+
+
 .footer{
 	background-color: #2a2a2a;
 	color: #fff;
@@ -134,6 +157,7 @@ a{
 	padding: 1%;
 	    font-size: xx-large;
 	        margin-bottom: 5%;
+                font-weight: bolder;
 
 }
 .footer-widget-sub-heading{
@@ -142,9 +166,34 @@ a{
 	        margin-bottom: 2%;
 
 }
+
+
+.footer-widget-content-container{
+     width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 3%;
+
+}
+
+
+    .footer-useful-link{
+         padding: 1%;
+
+
+    }
+    .footer-useful-link-hyperlink{
+        padding: 2%;
+
+    }
 .footer-contact-logo{
 
 }
+.footer-contact-and-social{
+
+}
+
+
 .footer-contact-info{
 	    width: 60%;
     margin: 0 auto;
@@ -156,22 +205,35 @@ a{
     padding: 2%;
 
 }
-.footer-social-item{
-	    padding: 5%;
-    width: 75%;
-    margin: 0 auto;
-    margin-top: 5%;
-	
-
-}
 .footer-social-item-icon{
-	
-	    padding: 1%;
-    float: left;
-    width: 12%;
-    font-size: xx-large;
 
 }
+.footer-social-area{
+    clear: both;
+    
+     
+
+}
+.footer-social-items{
+        padding: 1%;
+   
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    
+        
+}
+.footer-social-item{
+	    
+            padding: 2%;
+    
+    display: inline;
+    font-size: large;
+    
+	
+
+}
+
 .footer-social-item-text-area{
 	    padding: 5%;
     float: left;
@@ -331,11 +393,28 @@ width: 80%;
     font-size: xx-large;
         margin-top: 3%;
         color: #000;
+            font-weight: bolder;
+
+  }
+  .sponsors-area{
+
+  }
+  .sponsors-area hr{
+    border: 0;
+    border-top: 2px solid #eee;
+    width: 80%;
 
   }
     .sponsor-list-area{
-    	padding: 1%;
+    	
+    
+
+    }
+    .sponsor-list{
+        padding: 1%;
     text-align: center;
+
+    overflow: hidden;
 
     }
     .sponsor-individual-card{
