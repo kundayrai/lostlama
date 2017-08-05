@@ -1,8 +1,8 @@
 body{
 	color: #000;
 	background-color: #fff;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: medium;
+	font-family: 'Montserrat', sans-serif;
+	font-size: small;
 }
 
 .container-fluid{
@@ -85,6 +85,7 @@ body{
 	color: #FFF;
 	padding: 15%;
 	height: 650px;
+    margin-top: -2%;
 	font-family: 'Gloria Hallelujah', cursive;
 	background-color: rgba(100,35,37,0.4);
 }
@@ -141,13 +142,14 @@ a{
 # NavBar 
 --------------------------------------------------------------*/
 
-/* Add a black background color to the top navigation */
+/* Style the links inside the navigation bar */
+
 .topnav {
-    background-color: #ff5a5f;
-    overflow: hidden;
+    margin-right: 3%;
+    margin-left: 3%;
+    padding-top: 2%;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     display: block;
@@ -155,12 +157,11 @@ a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: small;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: white;
     color: #ff5a5f;
 }
 
