@@ -448,9 +448,8 @@ width: 80%;
 
     margin-top: 3%;
     color: #FF5A5F;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Montserrat', sans-serif;
         margin-top: 3%;
-        color: #000;
             font-weight: bolder;
 
   }
@@ -577,4 +576,38 @@ width: 80%;
   .fullscreen-bg__video {
     display: none;
   }
+}
+
+
+    /*--------------------------------------------------------------
+# How It works
+--------------------------------------------------------------*/
+
+.how-it-works {
+    width: 60%;
+    margin: auto;
+}
+
+.htw-image {
+    height: 120px;
+    width: 120px;
+    float: left;
+}
+
+.step {
+    margin-bottom: 20%;
+}
+
+.htw-steps {
+    margin-top: 5%;
+}
+
+.step-head {
+    color: #ff5a5f;
+    font-weight: bold;
+    font-size: large;
+}
+
+.step-desc-area {
+    margin-left: 20%;
 }
