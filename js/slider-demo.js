@@ -1,4 +1,5 @@
 jQuery(document).ready(function($){
+      
     jQuery('.sponsor-list').slick({
         autoplay: true,
         autoplaySpeed: 3000,
@@ -55,3 +56,4 @@ jQuery(document).ready(function($){
     });
       jQuery('.sponsor-list').css('visibility', 'visible');
 });
+

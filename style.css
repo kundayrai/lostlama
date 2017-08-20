@@ -159,19 +159,45 @@ a{
     padding: 14px 16px;
     text-decoration: none;
     font-size: small;
+    font-weight: bold;
+    transition: border 0.5s ease-in-out 0s;
+    
+    
+    
+   
+}
+
+.topnav a:before{
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 0%;
+    height: 3px;
+    background: #fff;
+    content: "";
+    -moz-transition: all 1s ease-in-out 0s;
+    -ms-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    -webkit-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+}
+.topnav a:hover:before{
+   
+    width: 100%;
+    
 }
 
 
 
 /* Change the color of links on hover */
-.topnav a:hover {
-    color: #ff5a5f;
-    border-bottom: #fff;
+/*.topnav a:hover {
+    color: #f1acac;
     border-bottom-style: solid;
-    border-bottom-width: 70%;
-    transition: all 0.5s ease-in-out 0s;
+     border-bottom-width: 70%;
+     border-bottom-color: #fff;
+    
 
-}
+}*/
 
 
 
@@ -436,6 +462,7 @@ width: 80%;
 .customer-photo-image{
 	width: 230px;
     	height:230px ;
+        margin :0.5%;
 
 }
 
