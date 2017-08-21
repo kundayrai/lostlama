@@ -626,6 +626,20 @@ width: 80%;
     margin: auto;
 }
 
+.how-it-works-banner-area {
+  /*text-align: center;*/
+
+}
+    .how-it-works-banner{
+      padding: 1%;
+
+    }
+   .how-it-works-banner-image{
+    width: 1000px;
+    height: 300px;
+
+   }
+
 .htw-image {
     height: 120px;
     width: 120px;
@@ -633,7 +647,7 @@ width: 80%;
 }
 
 .step {
-    margin-bottom: 20%;
+    margin-bottom: 15%;
 }
 
 .htw-steps {
@@ -644,10 +658,16 @@ width: 80%;
     color: #ff5a5f;
     font-weight: bold;
     font-size: large;
+    margin:2%;
 }
 
 .step-desc-area {
     margin-left: 20%;
+}
+.step-desc {
+    width: 80%;
+    text-align: justify;
+    word-spacing: 4px;
 }
 
     /*--------------------------------------------------------------

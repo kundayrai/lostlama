@@ -45,6 +45,8 @@ var animations = {
       var src = el.attr('src');
       el.attr('src', src.replace('.gif', '.png'));
     });
+
+    
   }
 
 }
