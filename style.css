@@ -213,29 +213,29 @@ a{
 # Footer 
 --------------------------------------------------------------*/
 
-.footer a{
+footer a{
     color: #fff;
     text-decoration: none;
 }
-.footer a:hover,
-.footer a:focus,
-.footer a:active {
+footer a:hover,
+footer a:focus,
+footer a:active {
     color: #7f2d2f !important;
     text-decoration: none;
 }
-.footer a:visited {
+footer a:visited {
     color: #fff;
     text-decoration: none;
 }
-.footer hr{
+footer hr{
 
     border: 0;
     border-top: 1px solid #eee;
-    width: 42%;
+    width: 100%;
 }
 
 
-.footer{
+footer{
 	background-color: #FF5A5F;
 	color: #fff;
 }
