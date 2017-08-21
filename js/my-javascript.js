@@ -10,7 +10,7 @@ $(document).ready(function(){
 
  
   
-  //animations.init();
+  animations.init();
 
    $('.customer-photo-area').lightGallery({
     thumbnail:true,
@@ -37,13 +37,13 @@ var animations = {
     $('.home-page-how-it-works-step').on('mouseenter', function(e){
       var el = $(this).find('.home-page-how-it-works-step-image');
       var src = el.attr('src');
-      el.attr('src', src.replace('.png', '.png'));
+      el.attr('src', src.replace('.png', '.gif'));
     });
 
     $('.home-page-how-it-works-step').on('mouseleave', function(e){
       var el = $(this).find('.home-page-how-it-works-step-image');
       var src = el.attr('src');
-      el.attr('src', src.replace('.png', '.png'));
+      el.attr('src', src.replace('.gif', '.png'));
     });
   }
 
