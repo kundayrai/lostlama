@@ -161,46 +161,45 @@ a{
     font-size: small;
     font-weight: bold;
     transition: border 0.5s ease-in-out 0s;
-    
-    
-    
-   
 }
 
-.topnav a:before{
-    position: absolute;
-    top: 60px;
-    left: 0px;
-    width: 0%;
-    height: 3px;
-    background: #fff;
-    content: "";
-    -moz-transition: all 1s ease-in-out 0s;
-    -ms-transition: all 1s ease-in-out 0s;
-    -o-transition: all 1s ease-in-out 0s;
-    -webkit-transition: all 1s ease-in-out 0s;
-    transition: all 1s ease-in-out 0s;
-}
-.topnav a:hover:before{
-   
-    width: 100%;
-    
+*, *:after, *:before {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
+* {
+    margin:0;
+    padding:0;
+    border:0 none;
+    position: relative;
+    outline: none;
+}
 
+.topnav a{
+  text-decoration: none;
+  z-index: 1;
+}
 
-/* Change the color of links on hover */
-/*.topnav a:hover {
-    color: #f1acac;
-    border-bottom-style: solid;
-     border-bottom-width: 70%;
-     border-bottom-color: #fff;
-    
+.topnav a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: #FF5A5F;
+  visibility: hidden;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: .25s linear;
+}
 
-}*/
-
-
-
+.topnav a:hover:before,
+.topnav a:focus:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
    
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -648,4 +647,37 @@ width: 80%;
 
 .step-desc-area {
     margin-left: 20%;
+}
+
+    /*--------------------------------------------------------------
+# Packages Area
+--------------------------------------------------------------*/
+
+.package-area {
+    background-color: #fff;
+    text-align: center;
+}
+
+.package-image {
+    width: 250px;
+    height: 350px;
+    
+}
+
+.packages {
+    margin-top: 3%;
+}
+
+.polaroid {
+    width: 250px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  float: left;
+  margin-left: 2%;
+}
+
+.container-polaroid {
+  text-align: center;
+  padding: 10px 20px;
 }
