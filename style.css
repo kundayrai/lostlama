@@ -86,7 +86,7 @@ body{
 	padding: 15%;
 	height: 650px;
     margin-top: -2%;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Dancing Script', cursive;
 	background-color: rgba(100,35,37,0.4);
 }
 
@@ -95,7 +95,7 @@ body{
 	color: #FFF;
 	height: 300px;
 	padding: 2%;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Dancing Script', cursive;
 	background-color: rgba(100,35,37,0.4);
 }
 
@@ -104,7 +104,7 @@ body{
 	color: #FFF;
 	height: 650px;
 	padding: 15%;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Dancing Script', cursive;
 	background-color: rgba(100,35,37,0.4);
     margin-top: -2%;
 }
@@ -426,6 +426,7 @@ width: 80%;
 .customer-photo-area{
 	padding: 1%;
     text-align: center;
+    margin-top: 3%;
 
 }
 .customer-individual-photo{
@@ -435,7 +436,7 @@ width: 80%;
 }
 .customer-photo-image{
 	width: 230px;
-    	height:230px ;
+    height:230px ;
 
 }
 
@@ -458,10 +459,10 @@ width: 80%;
     font-size: xx-large;
 
     margin-top: 3%;
-    color: #FF5A5F;
-    font-family: 'Montserrat', sans-serif;
-        margin-top: 3%;
-            font-weight: bolder;
+    color: #000;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 3%;
+    font-weight: bolder;
 
   }
   .sponsors-area{
