@@ -87,7 +87,7 @@ body{
 	height: 650px;
     margin-top: -2%;
 	font-family: 'Dancing Script', cursive;
-	background-color: rgba(100,35,37,0.4);
+	background-color: rgba(255,90,95,0.25);
 }
 
 .topBox1{
@@ -96,7 +96,7 @@ body{
 	height: 300px;
 	padding: 2%;
 	font-family: 'Dancing Script', cursive;
-	background-color: rgba(100,35,37,0.4);
+	background-color: rgba(255,90,95,0.25);
 }
 
 .contactHead{
@@ -105,21 +105,22 @@ body{
 	height: 650px;
 	padding: 15%;
 	font-family: 'Dancing Script', cursive;
-	background-color: rgba(100,35,37,0.4);
+	background-color: rgba(255,90,95,0.25);
     margin-top: -2%;
 }
 
 .textContainer{
-	font-size: 50px;
+	font-size: xx-large;
 	color: black;
 	height: 400px;
 	padding: 5% ;
 }
 
 .description{
-	color: #9E9E9E;
-	font-size: 20px;
-	padding: 0 50px 0 50px;
+	color: #;
+	font-size: medium;
+	padding: 0 100px 0 100px;
+    margin-top: 3%;
 }
 
 .descriptionhead{
@@ -188,7 +189,7 @@ a{
   height: 3px;
   bottom: 0;
   left: 0;
-  background: #FF5A5F;
+  background: rgba(255, 90, 95, 0.4);
   visibility: hidden;
   border-radius: 5px;
   transform: scaleX(0);
@@ -429,16 +430,16 @@ width: 80%;
   .home-page-how-it-works-button-text{
     font-size: large;
     font-weight: bolder;
-
+    color: #FFF;
+    text-decoration: none;
   }
 
-  .home-page-how-it-works-button-text a {
-  	color: #fff;
-  }
+.home-page-how-it-works-button:hover {
+	background-color: rgba(255, 90, 95, 0.6);
+}
 
-.home-page-how-it-works-button-text a:hover {
-	background-color: #fff;
-	color: #FF5A5F;
+.home-page-how-it-works-button-space a:hover {
+    text-decoration: none;
 }
 
 .home {
@@ -701,4 +702,38 @@ width: 80%;
 .container-polaroid {
   text-align: center;
   padding: 10px 20px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.polaroid:hover {
+    background-color: rgb(255, 90, 95);
+    color: #fff;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 350px;
+  width: 250px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255, 90, 95, 0.6);
+}
+
+.container-package:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
