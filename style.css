@@ -391,8 +391,8 @@ width: 80%;
 
   }
   .home-page-how-it-works-step-image{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 
   }
   .home-page-how-it-works-step-heading{
@@ -461,8 +461,9 @@ width: 80%;
 }
 .customer-photo-image{
 	width: 230px;
+
     	height:230px ;
-        margin :0.5%;
+        margin :0.5%;        
 }
 
 .places-visited-image-area{
