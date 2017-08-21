@@ -33,7 +33,7 @@ body{
     background-image: url("images/homePage2.jpg");
 
     /* Set a specific height */
-    height: 650px; 
+    height: 300px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -58,7 +58,7 @@ body{
 
 .parallax4 { 
     /* The image used */
-    background-image: url("images/homePage2.jpg");
+    background-image: url("images/image14.jpg");
 
     /* Set a specific height */
     height: 300px; 
@@ -81,7 +81,7 @@ body{
 }
 
 .topBox{
-	font-size: 50px;
+	font-size: 70px;
 	color: #FFF;
 	padding: 15%;
 	height: 650px;
@@ -95,6 +95,8 @@ body{
 	color: #FFF;
 	height: 300px;
 	padding: 2%;
+    padding-top: 7%;
+    text-align: center;
 	font-family: 'Dancing Script', cursive;
 	background-color: rgba(255,90,95,0.25);
 }
@@ -114,13 +116,17 @@ body{
 	color: black;
 	height: 400px;
 	padding: 5% ;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
 }
 
 .description{
-	color: #;
-	font-size: medium;
+	color: rgba(0,0,0,0.7);
+	font-size: 15px;
 	padding: 0 100px 0 100px;
     margin-top: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
 }
 
 .descriptionhead{
@@ -132,8 +138,10 @@ body{
 
 .description-htw{
 	color: #FFF;
-	font-size: 20px;
+	font-size: medium;
 	padding: 0 50px 0 50px;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 a{
@@ -703,7 +711,7 @@ width: 80%;
 }
 
 .how-it-works-banner-area {
-  /*text-align: center;*/
+  text-align: center;
 
 }
     .how-it-works-banner{
