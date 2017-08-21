@@ -86,7 +86,7 @@ body{
 	padding: 15%;
 	height: 650px;
     margin-top: -2%;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Dancing Script', cursive;
 	background-color: rgba(100,35,37,0.4);
 }
 
@@ -95,7 +95,7 @@ body{
 	color: #FFF;
 	height: 300px;
 	padding: 2%;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Dancing Script', cursive;
 	background-color: rgba(100,35,37,0.4);
 }
 
@@ -104,7 +104,7 @@ body{
 	color: #FFF;
 	height: 650px;
 	padding: 15%;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Dancing Script', cursive;
 	background-color: rgba(100,35,37,0.4);
     margin-top: -2%;
 }
@@ -159,12 +159,49 @@ a{
     padding: 14px 16px;
     text-decoration: none;
     font-size: small;
+    font-weight: bold;
+    transition: border 0.5s ease-in-out 0s;
+    
+    
+    
+   
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-    color: #ff5a5f;
+.topnav a:before{
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 0%;
+    height: 3px;
+    background: #fff;
+    content: "";
+    -moz-transition: all 1s ease-in-out 0s;
+    -ms-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    -webkit-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
 }
+.topnav a:hover:before{
+   
+    width: 100%;
+    
+}
+
+
+
+/* Change the color of links on hover */
+/*.topnav a:hover {
+    color: #f1acac;
+    border-bottom-style: solid;
+     border-bottom-width: 70%;
+     border-bottom-color: #fff;
+    
+
+}*/
+
+
+
+   
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
@@ -183,7 +220,7 @@ a{
 .footer a:hover,
 .footer a:focus,
 .footer a:active {
-    color: #FF5A5F !important;
+    color: #7f2d2f !important;
     text-decoration: none;
 }
 .footer a:visited {
@@ -199,7 +236,7 @@ a{
 
 
 .footer{
-	background-color: #2a2a2a;
+	background-color: #FF5A5F;
 	color: #fff;
 }
 
@@ -260,8 +297,8 @@ a{
     padding: 3%;
 }
 .footer-contact-info-item{
-	    margin: 2% 0 2% 0;
-    padding: 2%;
+	 margin: 0% 0% 2% 0%;
+    padding: 0% 0% 2% 0%;
 
 }
 .footer-social-item-icon{
@@ -415,6 +452,7 @@ width: 80%;
 .customer-photo-area{
 	padding: 1%;
     text-align: center;
+    margin-top: 3%;
 
 }
 .customer-individual-photo{
@@ -424,7 +462,12 @@ width: 80%;
 }
 .customer-photo-image{
 	width: 230px;
+<<<<<<< HEAD
+    height:230px ;
+=======
     	height:230px ;
+        margin :0.5%;
+>>>>>>> 7d8ff0cda41be1b095d199b5f21a297dac06ea1b
 
 }
 
@@ -447,10 +490,10 @@ width: 80%;
     font-size: xx-large;
 
     margin-top: 3%;
-    color: #FF5A5F;
-    font-family: 'Montserrat', sans-serif;
-        margin-top: 3%;
-            font-weight: bolder;
+    color: #000;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 3%;
+    font-weight: bolder;
 
   }
   .sponsors-area{
