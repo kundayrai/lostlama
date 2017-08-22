@@ -500,6 +500,23 @@ width: 80%;
     font-weight: bolder;
 
   }
+  .heading-decor-icon:before , .heading-decor-icon:after{
+    content: '';
+    width: 20%;
+    height: 2px;
+    background-color: #FF5A5F;
+    position: absolute;
+    display: inline-block;
+    top: 30%;
+  }
+  .heading-decor-icon:before{
+    left: 27%;
+
+    } 
+    .heading-decor-icon:after{
+      right: 27%;
+
+    }
   .sponsors-area{
 
   }
@@ -662,7 +679,7 @@ width: 80%;
   color: #fff;
   background-color: #cc484c;
   height: 600px;
-  background-image: url("images/who-we-are-bg.png");
+  background-image: url("images/who-we-are-bg-1.png");
 
 }
 .home-page-heading-area{
